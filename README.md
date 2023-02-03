@@ -2,7 +2,7 @@
 tech201_packages_and_libraries
 
 # Modules
-```
+```python
 import os
 import math, datetime, sys
 
@@ -11,7 +11,7 @@ print(working_directory)
 ```
 ### modules are simpler to use than libraries and used to import files, modules are used alot in devops
 
-```
+```python
 def return_user_id():
     print(os.getpid())
 
@@ -32,16 +32,18 @@ When you are building a program, it's really important to think weather you need
 - len()
 - type()
 
+```python
+
 
 from modules import *
 
 return_user_id()
 
-# return_user_name()
+return_user_name()
+```
 
-
-
-# or we could use
+or we could use
+```python
 
 # import modules
 
@@ -59,8 +61,8 @@ return_user_id()
 
 # import random     # to import the library random
 # print(random.random())
-
-
+```
+```python
 from random import random          # if we don't want the entire library
 
 
@@ -74,18 +76,20 @@ num_float = 23.66
 print(math.ceil(num_float))
 print(math.floor(num_float))
 print(math.pi)
-
+```
 # pip and packages
 
-# pip is Pythons package manager and installer
+pip is Pythons package manager and installer  
 
-# import requests
-#
-# request_bbc = requests.get("https://www.google.co.uk")
-#
-# print(request_bbc.status_code)
-# print(request_bbc.content)
-#
+### import requests
+```python
+
+
+request_bbc = requests.get("https://www.google.co.uk")
+
+print(request_bbc.status_code)
+print(request_bbc.content)
+```
 
 
 
