@@ -38,3 +38,69 @@ post_multi_red = requests.post("https://api.postcodes.io/postcodes", headers=hea
 
 print(post_multi_red.json())
 ```
+
+```python
+
+
+__init__    # this will be the first things to happen when we use this package
+```
+
+
+
+```python
+class Fizzbuzz:
+
+    def __init__(self, start_of_range, end_of_range):
+        self.fizzrange = range(start_of_range, end_of_range + 1)
+        self.fizzbuzz_list = []
+        self._fizzbuzz_iterator()
+
+    def _divisible_by(self, num1, num2):
+        if num1 % num2 == 0:
+            return True
+        else:
+            return False
+
+    def _fizzbuzz_iterator(self):
+
+        for num in self.fizzrange:
+            if self._divisible_by(num, 15):
+                self.fizzbuzz_list.append("fizzbuzz")
+            elif self._divisible_by(num, 5):
+                self.fizzbuzz_list.append("buzz")
+            elif self._divisible_by(num, 3):
+                self.fizzbuzz_list.append("fizz")
+            else:
+                self.fizzbuzz_list.append(num)
+
+
+```
+
+```python
+# envoke the fizzbuzz solution from fizzbuzz.py
+
+from app.fizzbuzz import Fizzbuzz
+
+one_to_100 = Fizzbuzz(1, 100)  # capitalisation is important when it comes to classes
+
+print(one_to_100.fizzbuzz_list)
+```
+
+```python
+
+# Background to application/package
+
+# Sample info in this file:
+
+# Version = "1.0"
+
+# description="Python app"
+
+# author="Luke Fairbrass"
+
+# url="https://www.python.org"
+
+from setuptools import setup # we want to import tools related to setup
+
+setup(name="app")
+```
