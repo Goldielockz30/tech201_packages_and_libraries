@@ -32,6 +32,7 @@ When you are building a program, it's really important to think weather you need
 - len()
 - type()
 
+
 ```python
 
 
@@ -43,21 +44,21 @@ return_user_name()
 ```
 
 or we could use
-```python
+```
 
 # import modules
 
 # modules.return_user_id()
-
+```
 
 # Python Libraries
-
-# we can import methods and functions
-# python has loads of libraries, we can import any of them if we know what we want
-# because its opensource, free
-# I'ts been around for a long time
-# I'ts a simple language,
-# I'ts built into the language
+```
+we can import methods and functions
+python has loads of libraries, we can import any of them if we know what we want
+because its opensource, free
+I'ts been around for a long time
+I'ts a simple language,
+I'ts built into the language
 
 # import random     # to import the library random
 # print(random.random())
@@ -90,6 +91,8 @@ request_bbc = requests.get("https://www.google.co.uk")
 print(request_bbc.status_code)
 print(request_bbc.content)
 ```
+
+
 
 
 

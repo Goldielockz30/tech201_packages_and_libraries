@@ -1,7 +1,7 @@
 # Python Libraries
 
-# we can import methods and functions
-# python has loads of libraries, we can import any of them if we know what we want
+# We can import methods and functions
+# Python has loads of libraries, we can import any of them if we know what we want
 # because its opensource, free
 # I'ts been around for a long time
 # I'ts a simple language,
